@@ -1,0 +1,10 @@
+streamlit (for frontend)
+google-generativeai (To import Gemini facilities)
+python-dotenv (To load environment variables especially for using api key for gemini)
+
+conda create -p <project name> python==3.10 -y (To create a virtual environment to refrain any local dependencies from creating problems)
+conda activate <project name>/
+
+Streamlit is used to create a basic frontend for our LLM model
+
+To run the code in streamlit app : streamlit run <filename>.py
